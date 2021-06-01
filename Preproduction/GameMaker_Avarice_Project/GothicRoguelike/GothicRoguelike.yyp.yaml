@@ -1,0 +1,378 @@
+assets: 
+  - "sprites | GMSprite | b76df469-9e4b-4952-a244-5378a41cc44f | dcdb55d1-1a51-41db-a6d3-32948fd52212": 
+      - "Tilesets | GMSprite | 06a80027-7a25-491d-8289-7d63246ea49c | 2789b7cb-51cb-4384-8091-c1c14bc829d5": 
+          - "?spr_tileDeco | GMSprite | 4ccfd61f-894a-4742-9975-fbb900b4059f | fb1af47b-5dbb-45ee-bd91-bdb1c315b902"
+          - "?spr_tileCastle | GMSprite | 008fe9af-7d13-4ffe-92a6-4586ee571ed0 | 17cefbe4-34a5-4e8b-9696-2d5cbee8ecfc"
+          - "?spr_tileInfested | GMSprite | 65b9fdde-73bc-4df3-b381-20288ccbb058 | 8d849755-313c-4bfb-aa0d-3b07c9ae6083"
+          - "?spr_tileDemonic | GMSprite | 0b1262dd-b684-48fa-9efc-cb4335ad3c7d | ac417b33-7913-45a2-9eb1-f83716a19726"
+          - "?spr_tileCastleDeco | GMSprite | ce62d313-c438-4125-acba-e950fe1967ca | 73d23e74-ace9-4751-82b6-f42b48d9a135"
+          - "?spr_tileInfestedDeco | GMSprite | 1d846b02-015e-4fd0-a4e5-dcb329c0573f | eede64a8-951e-433f-a32d-260dcefb931d"
+          - "?spr_tileDemonicDeco | GMSprite | 3dac7f18-fe94-4e45-ae92-ea8f57d2bef5 | d227cf9b-8e73-439d-b044-7168d15dae0b"
+      - "Player | GMSprite | 61160a6d-2e04-4432-8746-f14b2e41551b | ed9cb82b-b326-4b5c-b57a-0e34727e84fb": 
+          - "?spr_Player | GMSprite | fe6e89b8-7fa5-41f0-bc6d-04aaca78ee7d | d5f1cec6-aba7-4c52-b134-af719d95ae8e"
+          - "?spr_PlayerBow | GMSprite | 3da01dbf-d9fc-4bd5-be2d-72b0e3802378 | aeb64237-cb82-4a07-bae6-18c2bd45e361"
+          - "?spr_ThrowingDaggerAnimation | GMSprite | 9021597b-fa07-430e-a4f2-a69a999fd8bb | ebba0f6e-0f1d-41ee-b6dc-cec3eed7bdd9"
+      - "Enemies | GMSprite | b089d724-d549-48a7-901a-5520df07bfb7 | be52c8ec-28fa-40e7-892f-6b6725e6b56b": 
+          - "?spr_demonBoss | GMSprite | f65bcbc5-8be9-48d7-9b38-f220499112b9 | bb80612f-6b8f-4d91-ac17-53f79fbfe656"
+          - "?spr_infSkeleRanged | GMSprite | ee0c986d-bb18-4afb-aad5-4374319de3ef | 3cb55c71-ad86-4775-8647-730faa781bcb"
+          - "?spr_infSkeleMelee | GMSprite | 9da7576e-2888-4072-b019-1ca252722321 | 135d3f34-e798-46ce-8730-cf9614036766"
+          - "?spr_bosSkeleMelee | GMSprite | 8993cbdf-8a38-437f-91fe-77404362db54 | 4405ef25-e424-4dff-b55a-9044db68c707"
+          - "?spr_casSkeleMelee | GMSprite | 7ab70dbb-764a-4a1d-9734-d3d1e238b50d | 187ea85e-567f-4b34-84ac-3e71e44177ec"
+          - "?spr_fireball | GMSprite | 15ddb096-e159-4fe2-acc5-94a037a1a4ef | 64696e4e-2b6b-409a-9bf6-4291b24b9f48"
+          - "?arrowSprite | GMSprite | c7019ca6-1ca4-4023-9fa1-cb8296b71afc | d1f3e84f-8125-4f78-9e7a-745debf400af"
+          - "?spr_SkeletonEnemy | GMSprite | 96c42af6-79e1-45b5-a4cc-0d74b5ebcb3c | bbc44c4f-5e1c-4b38-8fbc-07ddf647597b"
+          - "?spr_SwarmingDemon | GMSprite | 3f477be2-a4e7-4a97-98ca-fecfc140a57d | 1b6df2b2-a720-4a8a-b863-652ce65e6bf1"
+          - "?spr_EnemyBandit | GMSprite | 4740d6d0-9f9a-4db6-8ec8-c86bf0f546ef | 12bf0991-9730-4e1c-b3b6-143b22c0e7ee"
+          - "SkeloDevil | GMSprite | f3ad89fa-e581-471b-ae80-3faaa2c388b2 | 1b016df4-bce7-460f-ad30-53f2cab92911": 
+              - "?spr_SkeloDevil | GMSprite | fbe6967f-8fe8-41bd-b792-a14c80a0d4bd | 92608f08-25e9-4ade-9f2f-5a098d63c0ae"
+              - "?spr_SkeloDevilRightFoot | GMSprite | 6fc49b9a-f3f9-4048-9c00-1726d0078928 | eb04a304-d68d-4232-9aad-f9ad7eabcc4f"
+              - "?spr_SkeloDevilLeftFoot | GMSprite | aaec57a3-bc09-4a29-9544-4129972891fe | a3f816f5-7f67-4bf0-b6fb-4fc9c961e2e9"
+              - "?spr_SkeloDevilTorso | GMSprite | 0b34c0bd-4e35-48a6-8787-c2657df75f4b | 76004c7a-a39d-4f3f-813d-29bae436582a"
+              - "?spr_SkeloDevilRightArm | GMSprite | 7f4d1144-28e8-4ae3-bc09-8322b4ce7586 | b47e7b4f-4352-4614-937c-eb2e0a0189f9"
+              - "?spr_SkeloDevilLeftArm | GMSprite | fa047017-4d76-43d6-9481-7b2741a3ae13 | ea7c94bb-c478-456b-a65c-564e8b8d7e4d"
+              - "?spr_SkeloDevilHead | GMSprite | 2ee671fd-c9b3-42c2-9c51-c0e87ba8f9b3 | 0c71006b-fdcd-4203-907c-bfc4ef98e2aa"
+          - "?spr_skeledevil_TEMP | GMSprite | b57fdebe-7345-416d-8dc7-be6cd53aa642 | 268880b8-5927-4759-944c-cae669fe9250"
+          - "?spr_Cherub_TEMP | GMSprite | e2a804e1-0ae3-4aa9-80e9-690105ec93d7 | 934ffa21-3df1-4d71-bc5e-460a7552228d"
+          - "?spr_zombie_TEMP | GMSprite | 3720ea7f-1c29-48b8-9670-b0c8288e4015 | ad04922d-b6f0-41cd-a096-929454ca7987"
+          - "?spr_UndeadHermit | GMSprite | 5c59fe0b-8e37-4f06-be39-4f5f10b5602f | c85220d2-2a53-490f-8b7d-48c1877a3c5a"
+          - "?spr_arrow1 | GMSprite | 82b5bc82-4346-4a38-8919-4f73a6d3c352 | 25f7b582-24bf-42fa-9a99-f1031ea1c385"
+      - "?sprStopWall | GMSprite | 8e402b6b-bfa1-4c3e-aa74-2b58691cf234 | a8ecd19f-a256-4f0d-ac2a-c01c36a4651d"
+      - "?sprAttackingProto | GMSprite | c4bbb71c-4d0a-4bc1-baf5-6fe16fa99192 | 2506bf54-d885-493c-9a03-86a3729759b1"
+      - "Items | GMSprite | a56bfe99-e5e7-4c82-8a04-7b2d3b53e808 | 4a7ed7bd-3ae8-495c-87c2-82721d6392f7": 
+          - "?sprAttackingSwordProto | GMSprite | 02831228-2484-47ae-8f49-c986c80e2290 | 2bdfec9c-6721-445a-8d68-a19f94b514f9"
+          - "?sprArmorProto | GMSprite | 7fcd5812-2eed-45af-b831-2e94bfd3c563 | a14665db-18a5-44ba-abeb-548e092f9858"
+          - "?sprHelmetProto | GMSprite | 0fce1b16-4893-426d-970f-070f726814fc | ecdb30bc-9ed4-42e4-8866-8efe0a6e83a0"
+          - "?spr_greatsword | GMSprite | e68f7cf9-8f0f-4901-aaa0-40df083a3cfc | 7ff0a7de-25d5-4ef4-af03-e439ec84aeee"
+          - "?SwordPickupSprite | GMSprite | 37a9d82e-f89f-44d5-ac55-95392841f40c | d38da836-8c11-4654-836d-d54ef40b59da"
+          - "?amorSprite | GMSprite | a44e0086-2cd6-468a-8f6d-959519840ab0 | 46d43f7b-381f-4294-920d-b12f155b35de"
+          - "?attackingDagger | GMSprite | e6c87834-6772-4853-bd62-a4cc10bf1f02 | 8924aacd-be38-434b-b7de-e8d39d6f231a"
+          - "?attackingSword | GMSprite | f2582be0-8977-45c6-9874-4f45f101f8b6 | de2e9dc3-e211-4a0a-a6c7-2a425cb8b397"
+          - "?spr_Helmet | GMSprite | 2ea08fd5-9ac5-42a8-9a49-54a5d8f1f664 | 8e24acac-325c-42e5-be94-ef8e50d0a549"
+          - "?sprArrow | GMSprite | 687e501c-03fe-4ee9-84d1-b571ab99bdae | aa3159f9-cdd0-4193-b952-f6694a19d67d"
+          - "?sprBombArrow | GMSprite | e39eb266-33ad-4ac8-8098-c4f481d4f2f0 | af846a1b-1385-4181-ac43-6f8c3d106439"
+          - "?sprArmorProtoHeavy | GMSprite | af02b373-4242-467d-9334-eb8b9110a499 | 9d0d5217-65c1-4f44-8112-6f686b984cfa"
+          - "?sprArmorProtoDemonic | GMSprite | e6f1502d-29b3-4998-8269-7d1c97eb1113 | 69e455f6-e792-4ee9-a03b-6d0a318914f8"
+          - "?attackingDagger1 | GMSprite | 45be8f21-2fd6-4843-9a01-84b39f5703a5 | 26f2e966-29d5-49f9-adeb-3e8020e51d0f"
+          - "?spr_Ragnarok | GMSprite | 16bd06db-124e-4c63-b633-5dd67b4ed534 | 0594827f-9148-403f-8a23-a8ee42828d15"
+          - "?spr_RagnarokCast | GMSprite | f86fcdef-94f7-458f-ac5a-275813f697f5 | 47a0ac9d-795a-4139-8212-1c9676ec625a"
+          - "?spr_tempArrow | GMSprite | d02c0061-5ef9-42af-bf96-58fc2e8eae36 | ec259846-87e5-4fde-b206-d1d7a185a366"
+          - "?spr_tempArrowPickup | GMSprite | 56571f47-9945-4421-a3d0-76d646a610b8 | 79b68259-a08c-4d3e-8138-b094d973af3c"
+          - "?spr_tempCrossbow | GMSprite | 541ae0cf-1d70-45c5-bdbb-9d0934a7864a | 5ae76565-f9ef-4a3f-8eb7-71775da8fc78"
+          - "?spr_durabilityPotion | GMSprite | 91fdbb36-46eb-471a-b3af-08a4c4c9e5f7 | cc0d79a7-7a1b-45fe-82c9-f37ef90a32bf"
+          - "?spr_durabilityAura | GMSprite | bddc3cdc-3109-4a37-8493-2fc1780ed282 | 1de5d90d-d0d2-4e75-b0e5-d0f99c1378ce"
+          - "?spr_lance | GMSprite | 928ec198-b69b-4316-98fd-0bad3c98e4b5 | c4de6b92-8060-40bf-a308-e03f0d064799"
+          - "?spr_lanceAttack | GMSprite | 6167946d-18d3-4ff4-a96d-7a26b1c806e6 | 4b3eb55b-00b2-4584-8baa-f42cd8e11fe7"
+          - "?spr_ThrowingDagger | GMSprite | 23ca8b62-e0ec-4e32-8a14-1ea380b385d5 | 556fc09c-3264-4e87-899a-be8e59b8242a"
+          - "?spr_crossbow | GMSprite | e9223e9c-eb2d-44da-ab31-950b329aeaa3 | 7c25dc31-b583-4d54-9070-4567b62b2e64"
+          - "?spr_arrowPickup | GMSprite | ce874456-ded8-4aee-a3c0-73140f17b972 | 4a278e7b-7087-49ae-b004-352cb224263b"
+          - "?spr_arrow | GMSprite | 81cfd678-19f4-48e7-8a43-f89f5472207d | a21b1991-369c-4bd5-b6a2-36fe28e9a8d2"
+          - "?spr_DurabilityPotion1 | GMSprite | 7c6116a0-191f-47df-b122-d6a2fffe4fbb | 3c022e5e-a597-4abe-b0a1-9bbd4c552bfe"
+          - "?spr_DurabilityEffect | GMSprite | 132c5a16-6278-43ad-ad14-56e1ad0dde9b | bda2d7e9-9d6a-4e60-977b-093c59f1f423"
+          - "?spr_Lance1 | GMSprite | f832386c-e1c3-48bd-9e95-ff9e2d7daf5f | 0b9dd35b-424c-49ea-9a12-2e10c0163714"
+          - "?spr_LanceAnimation | GMSprite | d653ffc3-b838-4fac-aecb-bc593d9343c9 | 852cb272-99ba-4cfc-8cbc-6cbb94de9943"
+          - "?spr_Lance2 | GMSprite | 877d7cc1-ab92-4257-9e6b-c471aca1d480 | ffc65f83-bfd4-4e3a-b987-148e5307f821"
+          - "?spr_ObsidianArmor | GMSprite | 48af92ef-f9b1-4d44-9c5b-61f33c9d87b9 | aaa4b877-b0e9-49ef-9d14-fc59a848d915"
+      - "Go To Sprites | GMSprite | 2889ca2d-5571-40a9-b592-2c984276a45a | 24dc0f7a-c22a-414a-b7cd-58dace4b31c8": 
+          - "?sprGoToCastle | GMSprite | 1e168555-83a9-4e9b-b129-9a367acc5fc1 | 8a064b01-f7d5-4c2c-ad71-9243ecbd7645"
+          - "?sprGoToInfested | GMSprite | a7f86021-54d2-4e05-84f8-618e116f984d | 0c5d7b71-64cb-4bbd-9996-48967b17e63f"
+          - "?sprGoToDemon | GMSprite | 1f132603-80f1-4dda-8510-d07f87a2dc98 | 23db1699-909c-4680-a8ac-ce79f9a36aac"
+          - "?sprGoToBase | GMSprite | ac1fbcf9-9f93-4601-be21-422da70f531e | ce279425-92e0-4d75-866c-72fd72fd44ad"
+          - "?sprGoToTest | GMSprite | ed0820e1-c4df-4752-a61c-fbbfee2db579 | 9a082360-fdb6-4021-a6ff-fcdb740926a7"
+      - "Stash & UI Sprites | GMSprite | 1e359dc3-5850-447d-a243-bba6256ca9ba | 98a7de38-aad2-4ba6-be45-a54a03d742c9": 
+          - "?spr_Stash | GMSprite | 448ab1e4-b1f1-4c64-98fe-1b8d5e3d170a | 35af141c-faf4-4ffc-a68f-e1e6a4b99ea0"
+          - "UI | GMSprite | 36130fc1-cd63-4929-a2bb-f22f79897f66 | 17c4dc64-cbe9-421a-96b1-73085345d238": 
+              - "?spr_add_Button | GMSprite | 576871e2-8f5c-486e-8122-c167c7307001 | 80117ff3-a193-4d20-b0bf-2acef7d6e25d"
+              - "?spr_remove_button | GMSprite | 6285c937-dccf-4288-a79f-8043853d2264 | 952fad02-153f-47df-afc6-13231ce54614"
+              - "?spr_stash_Background | GMSprite | 41625771-ce49-47cf-ba50-2a324491c7ca | 53361ac0-0d8e-4a52-9a60-077026875f88"
+              - "?spr_Box | GMSprite | 4580d008-4fc2-4b3b-8e18-80e500e45fad | fd45809b-4aef-4ede-9738-19534e41d733"
+              - "?spr_sotre_All | GMSprite | 06414e32-26f6-48f7-a258-7cbe3f4b1cbb | b945b001-5ca9-4df3-b593-5e9af8b17507"
+          - "?StashSprite | GMSprite | 8e070c98-d49a-4885-967a-f2dc6ec51115 | 189097e2-bb72-451b-b8e4-d4cee4222c67"
+          - "InventoryTempSprites | GMSprite | 144686c7-e817-4c88-aeef-6a84c09e4c4b | 8150a653-0964-480c-9869-ad6d40018b4a": 
+              - "?InventoryBackground | GMSprite | 65ba5d4a-313c-4860-9947-35669dd1dc36 | 3045c91f-f87e-4f2d-b1ef-9e69c974cbfb"
+      - "TitleInstructionsButton | GMSprite | b022a8ea-fb16-43d1-b81a-e618307869f8 | 18657272-2a18-4be5-97c7-0d991d997bd5": 
+          - "?backButtonSprite | GMSprite | ab99622b-7482-4732-a119-5fb5c8ea1837 | e2b0232c-7c65-44be-a57e-bb17fb4f8bbc"
+          - "?exitButtonSprite | GMSprite | e16118c6-f5f3-4d38-a228-e8eee06d922a | ea241001-833d-4450-a62f-d0c77815eb6a"
+          - "?restartButtonSprite | GMSprite | 21bb9d11-ce21-4663-b8d8-0022a9db433b | 5184629d-2b70-4d38-a88a-a19bf1b5023a"
+          - "?instructionsButtonSprite | GMSprite | 33b712fe-9a0b-4cc8-8f90-d4167fb4cbed | 56a93667-42af-4847-9b76-f83e5b536df5"
+          - "?InstructionsSprite | GMSprite | edf97888-24b1-4cfe-85d8-97e235cbb8be | 69349df9-2099-4e20-a42d-18accff27c1e"
+          - "?startButtonSprite | GMSprite | 2824ce81-9974-4a1e-a797-ba3146499c07 | bdae224c-a47b-47f1-8534-a3cbebf79fb3"
+          - "?titleSprite | GMSprite | a5ab2690-7846-4887-9ef7-bb8105a4804c | 3a245738-5e7a-4336-ada0-ff84efc874ca"
+      - "?sprExplosion | GMSprite | 12f5e524-6fa9-476b-ad25-41269e4ca111 | 18063fad-ff1d-42f7-b986-3971864e5754"
+      - "?spr_skelodemonHead | GMSprite | 3e9f8097-19c4-4232-a1c2-640246ce458d | 377944c1-4d03-474b-99ba-05812023c3a1"
+      - "?spr_skelodemonLeg | GMSprite | 6d29ef9e-d1a5-488f-ad1f-760f4dbda16c | 3d6cc514-35e2-4647-ab5f-7682d8ce5b29"
+      - "?spr_skelodemonArm | GMSprite | 8c3ee368-dc33-4e51-87f4-60fef6828bb0 | b43ba245-d0d8-482a-b723-7883d2d2e4b5"
+      - "?spr_skelodemonTemp | GMSprite | cc1556b8-4e39-45aa-8885-d545ef7b1d6b | 632dc7bc-20fa-4586-b906-3f4633b64129"
+      - "?spr_DurabilityPotion2 | GMSprite | 616d3482-cc4d-4251-9765-596856121621 | 0d2d60de-9204-4c3a-b6c1-86b5adb451be"
+      - "?spr_DurabilityPotion3 | GMSprite | 4a4ed060-378e-46b1-aa5b-537684b65691 | b66bcd61-5aa3-43f7-bb5c-f351f07128ff"
+      - "?sprStopWall1 | GMSprite | 25bf4024-bec6-4fe8-b0cf-6c436000ceb7 | 556c533c-995a-4e6d-9719-067fb426f99b"
+      - "?spr_Door | GMSprite | 0f778def-c71e-4c08-bc64-e43c33bebb9c | b9b48363-5577-4640-801d-656a4b344cc2"
+  - "tilesets | GMTileSet | 213599d5-b546-4c08-9625-9658756b1da8 | 1096a3d4-3490-461f-811c-7df90fb81f6d": 
+      - "tilesets\\tile_castleTerrain\\tile_castleTerrain.yy | GMTileSet | a2922811-00a5-4cec-83ec-555919f32235 | b983d81e-3c14-46df-9feb-08d3ff0d3755"
+      - "tilesets\\tile_infestedTerrain\\tile_infestedTerrain.yy | GMTileSet | bef56bac-52f8-40e2-ad49-3420eebfc82e | 25c413e2-33a4-4ee5-91dc-427ec4fcb89f"
+      - "tilesets\\tile_demonTerrain\\tile_demonTerrain.yy | GMTileSet | a3be4ba4-0bdf-41d7-a731-484b0274ae6c | 9905b7fa-1994-4205-ada0-301e9aab2656"
+      - "tilesets\\tile_castleDeco\\tile_castleDeco.yy | GMTileSet | da5a4908-840b-4c79-b1aa-5b30fff8a6f1 | 7043d675-0676-42bd-9428-29069bfec767"
+      - "tilesets\\tile_infestedDeco\\tile_infestedDeco.yy | GMTileSet | d6aaaaa3-33f7-4144-818d-b69426eab451 | 2a86eeb3-4c99-483f-9c16-da6272217041"
+      - "tilesets\\tile_demonicDeco\\tile_demonicDeco.yy | GMTileSet | d60086f0-b73b-4ae4-b993-33e1f783ebf5 | 50abcd39-80a0-4c46-a88a-ac01b5dde917"
+  - "sounds | GMSound | 820c8020-f6b3-41db-8555-fb00f0ddf8c1 | 0991b1ce-e8a8-4e06-b242-6bd734b59e5e": 
+      - "Sound Effects | GMSound | 1ab0cc1b-4e80-44a0-9b3c-1d0806010aa6 | 0e2d1ecd-3c43-4260-aa9c-f03c26e506c1": 
+          - "?snd_Armor_Equip | GMSound | 7d769182-2901-4f42-a477-f83730220a68 | 39407b65-8de9-43d4-8e9c-a55225658631"
+          - "?snd_Armor_Destroy | GMSound | 0a04fded-c782-401f-8998-a3555ad1dcfb | 69fa19de-28bd-4c63-ae25-c1477ad8d3f8"
+          - "?snd_Pickup_Sound | GMSound | b23c58a3-7350-43c9-9127-835023f50e8b | 7e4c32f6-d16c-4a0c-b29e-4ff2a7216b5c"
+          - "?snd_Helmet_Destroy | GMSound | f9d2a81a-88f5-41bb-a414-77a65ee49ae3 | b00d059e-05b4-4f46-8b7d-f3176b26f7a8"
+          - "?snd_Skeleton_Damage | GMSound | f09bf094-4a24-422b-85c1-19fb7258e21e | 7547a845-ca7f-40c8-a05c-10e9b73e4f63"
+          - "?snd_Fireball_Shot | GMSound | 250ae929-c96e-45ee-8f74-484759a8216a | c5212d69-cd78-4cab-b617-e7d5f4406b2c"
+      - "Title Screen Choices | GMSound | 9b6e79d4-c431-4526-ae2f-ae578be9e4c5 | 0d0036d8-4949-4c20-b2ad-dec92f97fe6f": 
+          - "?snd_Title_1 | GMSound | c593c924-77ca-4e50-83b0-503b7f9abacc | 848b09e8-3b9d-4665-8e73-70ec7659a8f0"
+          - "?snd_Title_3 | GMSound | 11182efe-34e4-4766-a65c-c46803139376 | 317c0324-eeee-4246-89bb-320ced27c222"
+          - "?snd_Title_2 | GMSound | fa1b4150-7b33-4a9b-9aff-119c93111ca1 | 2599dd3b-4e0a-49e7-bd95-4c0ee0a4917c"
+      - "Hub Choices | GMSound | 5b7a74d8-e011-4b1a-9fb4-6414ffe8afb0 | 3bd99cc8-3796-481d-bfc8-1c74988a1a01": 
+          - "?snd_Hub_1 | GMSound | 650338ac-0c70-415d-b4fc-37262d20f71c | d37ba565-1df0-4f18-85e3-2e8c35568abc"
+          - "?snd_Hub_2 | GMSound | d04fea94-94f3-4616-8382-4abbb8d0135a | b5834ea1-8c2e-4c28-8a31-a927d48362c1"
+          - "?snd_Hub_3 | GMSound | df02eb5a-b42c-4672-a415-d6974fba2a5e | 22ec6935-b2c3-4383-90d9-c6d8e6a3f9bc"
+      - "Ingame Choices | GMSound | 114b3285-f383-49f7-aa57-7ff802f936fc | 98f9ad6d-fd5b-4ff1-8c20-288cc9816bec": 
+          - "?snd_Ingame_1 | GMSound | 127c5ef0-3130-46b5-911c-779423d022a8 | 12aed161-2fe9-4304-866f-763582d7be28"
+          - "?snd_Ingame_2 | GMSound | dd8d4e1c-aea2-4ac9-84a4-e2e0dd46cc0f | 4ee0d6b9-16ee-4595-8a86-95b7c2c1ca1c"
+          - "?snd_Ingame_3 | GMSound | 53bee559-a05e-42ab-9726-227fa44f3e29 | 187d8a55-4f06-4c52-bff8-3cf58f0c6651"
+      - "Boss Fight Choices | GMSound | 051bff6b-0e36-46bc-abed-d999d37acaf1 | f3519479-a9ca-4a8c-aada-5b20354204c7": 
+          - "?snd_Boss_Fight_1 | GMSound | b7ccb63c-3337-4808-bc9c-3f2427bf0265 | cefec470-1475-49b4-ba0c-96672d8765df"
+          - "?snd_Boss_Fight_2 | GMSound | 42e417fb-1b11-4744-ad00-efff7c2bcd34 | d9a4edbc-1c24-4f77-85a2-6bac18eb278c"
+          - "?snd_Boss_Fight_3 | GMSound | 94fc9746-b5c2-43d0-af71-d636f8f5f25a | 88477875-723c-42a0-a6f7-0bb43cbc7e48"
+          - "?snd_boss_Damage | GMSound | f11edb64-d794-41fd-b59f-e5159869a0b4 | 00c294bf-8f63-4b0c-9fd6-3736af1b73f0"
+      - "Death Sound Choices | GMSound | 4bb24a22-b80a-4c78-a06d-1a620fec19de | 43ef5fe4-a7b5-4a3b-8b09-df602f3bae46": 
+          - "?snd_Death_1 | GMSound | 1366422a-96cf-4790-9fb2-801d5c601c95 | 0477e322-3298-418a-afa0-daf172a974d4"
+          - "?snd_Death_2 | GMSound | c76001e9-323b-45a2-a977-464f8a2a0f08 | 722c7c9b-35bc-4b78-8d97-f52dc7c0e241"
+          - "?snd_Death_3 | GMSound | 649d333e-dac9-4e09-9af7-0496cf5c15da | 4ab687bb-139c-4866-a831-6a27f92ba567"
+      - "?snd_Sword_Swipe | GMSound | dfa7006c-140c-4af0-8ac2-68bf29002b35 | bfe59b41-2a2a-45dd-a681-b59786fb64d8"
+      - "Pick-Up Sounds | GMSound | d7c17212-530f-4c67-be4b-a28bfd040f5a | ef2047e6-b682-4808-991c-7df901724274": 
+          - "?snd_armor_pickup | GMSound | 6b842a75-b9c5-45bc-afdf-f1af1d496fbb | cfb06465-f99d-4368-8f59-b541a45c035a"
+          - "?snd_potion_drink | GMSound | 5723a166-fd75-43ba-97f1-df66b039b554 | 6b656ddf-994f-4730-ad80-321fb15982d4"
+      - "?snd_skeleton_hit | GMSound | 280a44ad-ce17-4723-90ae-3033f85f22b8 | 55571b73-14bf-40b8-bdb2-74d234843542"
+      - "?snd_lance | GMSound | 4651158f-9ed5-47d5-ba82-913347112600 | 2d1833f8-4f9e-4505-bdab-5e89ad35e68e"
+      - "?snd_zombie_died | GMSound | 03fa6a17-4cff-4f4b-baa6-20d3a914bd11 | ca4671b9-67fb-4cd3-9459-7b267d0d9667"
+      - "?snd_demon_hit | GMSound | a6366292-070e-44e5-bbad-de1921191478 | e9c5d3ea-ee3e-45f6-9175-0fb127a34b9f"
+      - "?snd_demon_laugh | GMSound | cc5fad72-ae7a-42ae-9039-6615ea91c8d0 | ae6c2943-50e0-406b-97f1-d392814c5592"
+      - "?snd_zombie_moan | GMSound | ccbb817d-21d0-4343-a2f0-fd005e592ce6 | 34856b2c-8171-4afc-9232-58b50f95ee2d"
+      - "?snd_demon_death | GMSound | f28682dc-f672-4bcf-8989-e709075c4888 | ab6b26b3-d035-40f2-b7b9-37818d3319cb"
+      - "?snd_zombie_hit | GMSound | ad0de389-d6a4-4071-a0c7-805c84c137ac | ffc36455-568f-458e-8941-e403f7bd99f4"
+      - "?snd_fire_wolf_pant | GMSound | 81fc07c2-a6ce-4407-a230-c269af9ee390 | 507162a7-ef67-4c24-bf2b-e03fec51c3f1"
+  - "paths | GMPath | 8158ed2b-ba13-482c-b18c-2a99b2a6c0f9 | 114739f9-1072-47b8-aff4-89dc91345a0a": 
+      - "?patrol1 | GMPath | 8a63c840-04ff-4dd1-88ea-7f14786eddd7 | a4a97e94-0d49-4b32-82d9-917912a473fa"
+      - "?patrol2 | GMPath | b98a784f-6e72-44d8-a92a-071523f3992a | 4bfb1816-3383-49da-9ce8-62dab1b7d664"
+      - "?patrol3 | GMPath | d0c1abbb-1517-4c2f-9ff7-b86d9100614a | b93df565-1186-4598-b571-36f5c523c051"
+      - "?bosspatrol | GMPath | c93762c8-d41f-41a8-aeec-919bd43f3963 | 283fc78e-1c40-4386-8832-9c6953ea7baf"
+  - "scripts | GMScript | c935161d-793a-41a3-9195-afedb1d8c1fe | 4138de95-9d14-4f1b-ba9a-7e0ca0343b05": 
+      - "?scrDamage | GMScript | 466b6981-91da-40e3-876a-5d9a2ddde079 | 446945a7-c533-4a55-893d-42f6cdfc53b1"
+      - "?scr_UpdateEnemyHealth | GMScript | c0f2a1d9-c233-4aee-8faf-d7c692747f5b | bca43aa5-0036-4fda-8373-0378c088172d"
+  - "shaders | GMShader | 6f6c8eed-bae3-4794-b5a5-3d8c5c7a9fbc | da1d0dd1-7306-44f2-8455-1f5fb1fa3f00": []
+  - "fonts | GMFont | 983b5a52-c969-4d12-84d4-0084148f00b3 | 1a78873f-ff00-49d4-a441-03860c97829d": 
+      - "?fontDefault | GMFont | 75d3806c-5a78-4f38-8612-a96ccfcc5e46 | 64f31a44-f0e8-4853-86c2-b74dd8d9c9d4"
+      - "?smallFont | GMFont | 4335c814-314e-4520-8d4f-4bafed7018ea | 68e4f634-64c7-4392-aeef-3702db0010a4"
+  - "timelines | GMTimeline | d1fdacf6-eeb9-4836-a50b-9e7abdf31c44 | 27ac74e1-142b-4dbe-aa60-1fec06d395f4": []
+  - "objects | GMObject | 5dc337a9-c04e-499a-b25a-c287d70baec0 | 7837e6e1-175a-4295-8960-6a39689ef2a4": 
+      - "?obj_dummy | GMObject | f63c3944-c6a7-424b-9a89-5b4b8f7c7960 | cd68f393-fb8c-48bd-8572-99cf93f4dc6e"
+      - "?obj_Controller | GMObject | 08584d1e-f465-4f24-800e-8a4ca295b839 | 02646ccb-5163-41f3-bd14-d94a93cbe3ca"
+      - "?obj_Wall | GMObject | 36d67420-10c2-4b95-9706-2bbc226415a9 | dae2cab8-0b4a-48ba-8649-b75b9354d483"
+      - "Transport | GMObject | a047c57e-4a4b-48e7-b864-41a6c486ad95 | 4289c1c5-3dd6-44bf-beae-34146d0c28aa": 
+          - "?obj_ToCastle | GMObject | 1936b5fe-f6b3-47ae-807c-21c05b8877a6 | f2d3ac2e-c383-4459-b03e-4b2412e4be69"
+          - "?obj_ToInfested | GMObject | 3f53bda0-2bf5-48c5-9311-c34189a3af33 | 7b476247-b79c-4eef-9bf9-bc5c4911feea"
+          - "?obj_ToDemon | GMObject | 682f5a93-94f8-4a92-a8a9-eaa74b6e0c26 | ffcba733-d6dd-4cd8-bb07-a583512eea18"
+          - "?obj_ToBase | GMObject | 5e90249c-8c20-4a41-9017-e6351f66ac18 | 4ca9b912-064c-4247-ad40-46ff535244ab"
+          - "?obj_ToTest | GMObject | 56ed097a-e28d-4133-85d0-dbbf99acaf09 | 8dbc20d4-70db-4fad-bfbb-90aa5aa0e55f"
+          - "?obj_ToWhichRoute | GMObject | 62d96cb2-2120-4764-94bf-3ed8b2f6090d | 187b055b-6dad-46bb-8b82-36db1f24861a"
+      - "Attacks | GMObject | 46bdd16b-6194-45c6-872e-ebeba1bf8e70 | c38626d5-4d44-4e48-be0b-2542f2733678": 
+          - "?objAttackSword | GMObject | 4a932e2c-4854-4ec5-8d8e-b3a570b21516 | f8ed5d17-c6bb-4da6-ac06-f22763dd14b3"
+          - "?objArrow | GMObject | cd8085e9-3375-406c-bd39-a6f0c567f085 | 283afa1f-6b01-4860-99ac-40a682976ce6"
+          - "?objBombArrow | GMObject | c9516c87-03c8-4a56-8491-0ca7c76b0350 | f8d203ed-77dd-471e-9ffc-c9164eb8911c"
+          - "?objExplosion | GMObject | 94dd7e9a-a3df-45c7-b4b8-4d14dea7671e | a4a47eb1-2572-4032-8ff4-2d293c039d14"
+          - "?objDagger | GMObject | 7a9eba11-0cde-4cfb-a8e9-e70b35511f68 | 9caa0310-04f5-4e98-bd23-8b78b81de869"
+          - "?obj_DaggerThrown | GMObject | 118d823b-f693-4d31-baf6-da97d5d80ffd | 7570def1-8dbf-46ed-88a9-b16cdf5516c0"
+          - "?obj_Attack | GMObject | 1c40a96f-7578-48a3-bba8-ed63e9cc6445 | 5fa7ab9c-4d92-49aa-9b37-5bdedcad938a"
+          - "Test Attacks | GMObject | fcb4589b-83b4-4a6b-a341-a005b608f702 | 54b357fd-a71f-4df2-95e2-309054614c47": 
+              - "?obj_RangedTest | GMObject | 2c501eaa-7974-48b4-a46e-5b317fde1b17 | 1be82841-7a9e-4612-9550-6bcde47305ba"
+              - "?obj_MeleeTest | GMObject | 86659fe9-fc7f-4af3-ad6d-2507f33e3daa | d60f9836-ce2d-4567-9c32-d7075d5116f6"
+              - "?obj_ExplosiveTest | GMObject | b78c349c-eb3b-4ace-9675-27577fc96b36 | d46bf0da-c30e-4316-ae98-e062d8412ced"
+              - "?obj_WindTest | GMObject | 1b2d1656-0478-4bd4-974d-be15d8561ed8 | 51e9abc1-e700-4137-a873-53b70c5585a5"
+              - "?obj_ParalysisTest | GMObject | c3555ea6-e8ab-4755-b986-477250b07569 | 8c692675-9973-4e63-90ec-089b11d26ef3"
+              - "?obj_FireTest | GMObject | 29f46a47-a786-4580-8b24-8ad51b1a1f7d | 54e25a14-6504-4e7e-9e6e-6c351d97db70"
+              - "?obj_FreezingTest | GMObject | 12f3c136-1fc1-420e-94cb-83f8f11c0afb | adda7f87-3713-4726-a7cb-de7f36d1672a"
+          - "?obj_ragnarokCast | GMObject | 819e00a7-8464-4d69-9626-d1da88983273 | 826a4196-7d8a-45d4-9141-b62714af4448"
+          - "?obj_arrow | GMObject | bf3d285f-1f99-4a23-a8b1-834d6b109273 | 1ef21685-0b4d-45f3-abf0-dda54f461412"
+          - "?obj_attackLance | GMObject | bb12c209-4045-428f-8c0d-cafb3580e5c9 | be753661-ea0e-48dc-bae9-082522181295"
+      - "Items | GMObject | f1f8d7a2-79cd-40a6-83d2-687082eaf00e | b1a954d6-5ae8-415e-99d0-7daa538c62f0": 
+          - "?obj_greatsword | GMObject | 2f87f4eb-3668-4585-aecd-42dd4e3884be | 4a74a666-5237-4a54-8e58-93d365b682a5"
+          - "?obj_armor | GMObject | f7448989-2ec1-48ca-86a2-e928b00c2f56 | d03472d4-6658-4e46-9532-0be5f20cb65f"
+          - "?obj_helmet | GMObject | c421bd41-ca19-4aed-8a10-197d30762cab | 498e9ee2-0ac9-4a67-a83a-563c1a337392"
+          - "?obj_sword | GMObject | 3947e97c-5b43-4be9-9765-98edd924ba0e | 4fe5b3ee-97b0-4ff6-a555-cd04b6d6d536"
+          - "?objNormalArrowPickup | GMObject | 56d73457-7d57-4578-b4c9-5552afa1af1d | 974afcfa-ccd9-470b-a8b5-32bc76b508e4"
+          - "?objBombArrowPickup | GMObject | d2d2ea56-5f2f-4f8c-8a5d-0dbe7eaea684 | 161b8369-c159-4fd3-87f4-28726fc91550"
+          - "?ObjPrototypeLightArmor | GMObject | eebefa52-51d3-4556-819e-13d6edb9539c | 8e52ec82-b9cd-4606-9214-411c3b0d1e25"
+          - "?ObjPrototypeHeavyArmor | GMObject | fd33eff1-699b-4d64-b575-70cfce6a4924 | f4bfb778-e5af-4f4e-8c49-60d99627aea6"
+          - "?ObjPrototypeDemonicArmor | GMObject | e1b6784c-c7e6-41bf-85f7-0f1f859ce909 | c6d45a8e-69f7-41b3-8d86-cb09da6ce227"
+          - "?obj_crossBow | GMObject | e0e3d0df-ddab-4e7c-845a-6ce4d46e01fd | 47abd81b-6866-4d70-979f-ccd9c920b2d9"
+          - "?obj_arrowPickup | GMObject | da62e75e-5fc1-4a98-bbe9-e3a2c6b42624 | 796c5e2f-1e4c-48d2-994a-d35ec2556bad"
+          - "?obj_ragnarok | GMObject | b279dad3-1da1-4b38-ab88-40810083e993 | 65104771-87d5-4743-af81-727894b2df43"
+          - "?obj_durabilityPotion | GMObject | d11cd035-80c2-474b-8c87-b4684d064962 | 01ada8d8-7351-4165-b568-fb2306c89ba7"
+          - "?obj_lance | GMObject | c4340ea7-33ce-401d-82f7-326c9c7e10c4 | 31df4412-152a-4d45-a749-bd3b86dfd214"
+          - "?obj_durabilityPotionAura | GMObject | bd4636be-ca0e-4e19-b579-50ef37ba2a26 | ae94d2a7-c251-4052-a35d-b7fb166b2d13"
+          - "?obj_crossbow1 | GMObject | be6375a4-0c34-4a19-9304-ebf2d37fadad | 36167605-239d-4db5-894f-10ba9e314b98"
+          - "?obj_arrowPickup1 | GMObject | adf7fc79-35e2-43dd-a635-1173b3ed3aee | 0e472394-4073-4604-9f3f-05d872e6e138"
+          - "?obj_arrow1 | GMObject | de62b19c-adc2-4f98-b863-72ea39960acd | 73783b88-415c-41db-ae5d-ce2b4692847e"
+      - "Stash & UI | GMObject | 3e466364-8850-46e2-935b-3c73fbd16404 | a4e49a16-071c-4fad-a49d-abc5fc85c892": 
+          - "?obj_Stash | GMObject | c477c377-c0f0-4d60-9c8a-df4a67c464d1 | 77eba030-21dc-4c11-a5af-cb705f9974b7"
+          - "UI | GMObject | f66be8c6-4b6c-46ac-9bc4-5d48d43973ff | 9a42b54a-b270-48d9-8729-4f4c04a32227": 
+              - "?obj_add_Button | GMObject | 7675eba7-5446-454e-ada3-5a9eddff9865 | 1f166fed-3c06-44d3-ad39-20db8bf8c9d0"
+              - "?obj_remove_Button | GMObject | 008c7696-815f-4e6f-9f79-04b582f94612 | 308d6358-690f-41b5-b352-74af2c80faf5"
+              - "?obj_statsh_Background | GMObject | 00711f40-0fe0-4801-9d4b-9fb78617a2d4 | 1fb15f9e-911f-4fdf-9a21-3f6345947b93"
+              - "?obj_UI_Box | GMObject | 2acc934e-87be-402c-b592-dc23c6d57191 | cef6a35b-cc69-43b5-abaf-5c2ba2392f36"
+          - "?ojb_store_All | GMObject | 489e9b1b-19e5-41bb-a863-fef266ace5f7 | 3f5d3664-daf6-4dcf-9944-995c8b61de02"
+      - "Enemies | GMObject | 26abb66d-c639-4c57-b5c1-d85ea5eee35c | dc8da8c4-8189-4725-adca-b7f8fb3d5dc0": 
+          - "?obj_EnemyTest | GMObject | d4f140a9-a4d5-438f-9dad-db9dc7443392 | c8cd4b92-e24e-43ee-ba51-fdd290f73b49"
+          - "?obj_EnemyInfected | GMObject | 62b63345-17e6-4830-a062-512000bd5137 | c90e9cf5-946e-4ee2-a98c-0790e596acfd"
+          - "?obj_EnemyRanged | GMObject | 1762f55a-1b01-4634-966b-47660637a6bd | e68e7f90-acac-497b-97be-1dcfaa5d3213"
+          - "?obj_EnemyFire | GMObject | b2896789-8052-4b0f-84dd-aaa25772b76c | 7d9b75c3-bf79-457a-906f-d4be90b6cf1b"
+          - "?obj_bossDummy | GMObject | a2ea8512-a429-4233-b2c1-d50314729525 | d912c6f9-6218-437a-a858-7f4e496e674a"
+          - "?obj_fireball | GMObject | a56941d5-ad4c-4279-98e1-02f42cc67a47 | c701ff56-712f-4673-93f6-2018af9bd0c5"
+          - "?obj_EnemySkeleton | GMObject | 70a8770c-810d-4c91-b713-070155528d32 | cef82f7f-3761-4289-8ec2-5b643b7f166d"
+          - "?obj_EnemyTestDummy | GMObject | c470dce6-350b-4719-8371-31096f01511b | e2474e5e-6130-4529-afa3-684d088e8b29"
+          - "?obj_DummySkeleton | GMObject | 17cf2087-66f1-47e2-a757-aa42946bb589 | a7308aa7-be65-4477-a6b0-73ca1a668912"
+          - "?obj_Enemy | GMObject | 7472bfc3-b3d9-46e1-bf29-965de742caa3 | 7a455896-18a3-4732-a502-75e62cd70a75"
+          - "?obj_EnemySkeleton8 | GMObject | 63642829-9daa-46c3-9f53-6acafe5dd683 | 21f8981d-eeb1-4ca8-ad7f-acae4f97395f"
+          - "?obj_EnemyCherub | GMObject | 5d323dcd-2946-40e1-abe8-206eb1f03a31 | 84f1d167-b02c-445b-84c6-3ba825e34c1d"
+          - "?obj_Skelodevil | GMObject | 14ab022a-f765-4092-8eb6-1948b31ecd7a | 2ffd31fd-9b51-4be7-8b6e-8d81591382bb"
+          - "?obj_SkelodevilArm | GMObject | 9af9a953-d9b8-4e11-9103-e9962c6a63d8 | dfb97dd8-3654-4928-be39-2891fadc4531"
+          - "?obj_SkelodevilLeg | GMObject | be1aa6cd-1f94-4c5a-8440-91bfc29c0dfa | a92524f0-9d09-4133-8c6d-e457f0b50bcd"
+          - "?obj_SkelodevilBody | GMObject | 8f4ed4df-7356-4539-be80-56390a59ae51 | 920c5cad-f348-4571-82cb-3249cb5c2a68"
+          - "?obj_SkelodevilHead | GMObject | 14fff603-92c3-441f-b42c-cc49d9bb29b6 | 316d662f-af0b-40bc-94f0-a154a25bf0d9"
+          - "?obj_EnemyCherub1 | GMObject | 8cabd27c-2a33-425c-91cf-ac0eb1252928 | 280b60e4-9c64-41d5-af2c-af98dcadc5ec"
+          - "?obj_Enemy_Skeledevil | GMObject | 1331e96a-8b29-4b06-a579-b67d3ceec678 | 2b78297f-590a-46b1-be65-0995253d1f3c"
+          - "?obj_EnemyZombie | GMObject | 4f4a510f-c61f-4315-b29b-58e73fdb22e2 | c55b9c96-9f1d-4c95-bf6d-61518f73ba53"
+          - "?obj_EnemySkeleton15 | GMObject | 393cb94d-803a-40f1-a1d8-5e70dcf928c2 | 623b6d3b-1eda-477d-8e9c-da3628ee1861"
+          - "?obj_EnemyZombie1 | GMObject | cdc9d6fb-4f3f-4695-a736-6e0dcb9e1541 | e1390523-f66a-494a-9150-694972885ece"
+          - "?obj_EnemySkeleton1 | GMObject | 1fd14ba9-ab88-4d05-ab95-0592f30a4f0d | 99276e8a-33b9-4504-a918-5d1051c665a4"
+          - "?obj_BanditRanger | GMObject | feaced4f-e77c-42f7-af0c-8ac29a60e952 | 2ffb00cc-d42e-4525-a901-c1fca49d204e"
+          - "?obj_arrow5 | GMObject | df709dc6-d603-475c-a1f7-dbdc05d59e05 | 4873c1b4-30ca-4fbe-b668-de442e2ea886"
+      - "Buttons | GMObject | 50c049cb-27b4-4b06-8d62-ba5552097253 | 4b849c37-8a66-41c3-96c5-50f50f7d3065": 
+          - "?StartButton | GMObject | 5187e413-cdd4-4168-8c4a-28b744e76c46 | bbab4894-9f0c-4d4e-8945-36a0a3dc1207"
+          - "?EndButton | GMObject | cc7b0ba6-32fa-4259-b5b1-1a8aacb601b9 | 0c31acd4-0da3-4da4-8bf7-e8291bac3033"
+          - "?BackButton | GMObject | 134e4ce1-bccf-4e24-8bc4-897af55adf3c | c6764903-b6f6-425a-b64a-64926220befe"
+          - "?InstructionsButton | GMObject | 91f9dc5c-9e0d-4a66-a515-7d8e5089e869 | 82857759-6d16-4392-abdc-ac7b70068f1c"
+          - "?restartButton | GMObject | 41b8d202-5d72-4ff9-91f6-4ef8ed21b692 | 46b5f0bf-a48f-4c8e-ae14-2203330e438a"
+      - "?obj_Gold_Outcome | GMObject | 8e97a017-a9dd-4315-b72b-3fafec4a0f11 | 3640939f-8045-4082-bc07-5cf34bdd3d05"
+      - "?objDemonSpawner | GMObject | aececf1e-6872-4666-82ef-a580cf9a2811 | 9d6f9963-3c77-451a-955f-990800be8cd2"
+      - "?objDemonSpawnPoint | GMObject | bef24e77-e8d8-4018-adb6-163c33aae433 | 29e8eccd-e5b0-4522-b94c-94acb3453bca"
+      - "?obj_TestPlayer | GMObject | b9914a85-a449-4a1d-95d7-daaa8d26c296 | c175404e-e244-4992-b5e6-19245e89fb98"
+      - "Test Room | GMObject | c830e2b4-2a5c-4def-9027-9d03a21d2d17 | 444fc360-6bcc-4624-a974-96e4a42611b5": 
+          - "?obj_DummySkeleton1 | GMObject | d8429703-af02-4563-968a-ff70fac07516 | 97b06585-773e-48d9-b85c-43f0889f3956"
+          - "?obj_DummySkeleton2 | GMObject | 1461b51d-3a0f-4918-87cd-d615286ca7f1 | f8038143-7993-4478-8a97-cc79f1803c34"
+          - "?obj_DummySkeleton3 | GMObject | acf50e68-c44f-4720-bab5-c904603c7cd2 | cd00a6c1-14b7-40f4-9393-b7e4359693f5"
+      - "?obj_barrack | GMObject | dd3d00ae-979b-4d01-8b94-06c8621740ba | a1fc585a-48f7-4e8c-932d-91bfe520c211"
+      - "?obj_nextRoom | GMObject | 5736be3c-ac7d-481c-a283-8c1bac33b517 | 0bd42438-62ee-479f-aa35-6f71a6ea6192"
+      - "?object89 | GMObject | eb66cdf3-de71-4ec5-bf82-a0d2cc08810a | 7b679b13-6a52-4597-87bc-e7074e030be7"
+  - "rooms | GMRoom | e1d3e805-5f99-4fd3-b636-8e7e7631d9ee | 45929dfb-1af8-4656-924f-894facd0d18f": 
+      - "?TitleRoom | GMRoom | b9a1ad77-004d-49d5-b87c-b706610c2828 | 94c359b6-6f32-4477-a399-1ea8a67e9498"
+      - "?BaseDemo | GMRoom | efa82585-236a-4bcd-b534-c431fe8d76ce | 3e75149d-4a3e-44eb-af43-d6aa0ff72e40"
+      - "?CastleDemo | GMRoom | cdfabf48-14b0-4277-9589-82c635aa4e95 | 77dde789-2889-4b47-b711-8db8ac9f1319"
+      - "?InfestedDemo | GMRoom | 6bfc049b-e3a8-47c8-b4fe-0b1e5616a1fe | 82272f3d-2da6-4328-82e6-18f8f3c1f0cf"
+      - "?DemonDemo | GMRoom | 55058e4d-903e-474f-8aa4-0bcbc238b3f1 | 81147265-087b-48a2-b9cd-2ffd562612df"
+      - "?roomTest | GMRoom | eb8f56ea-e312-4258-a72c-61838cb2b5fe | 1ab7b592-f64d-42d1-971f-008fa7515f4b"
+      - "?InstructionsRoom | GMRoom | 9c234f01-cfe7-49c9-9cfb-aa4e9ef37760 | 81ec29ab-1b70-4809-8cf8-f5b889babe4f"
+      - "?WinRoom | GMRoom | aab4c960-026a-47a9-9cc5-568e0dd060b2 | cbea8326-d38d-4ef1-b500-316f2190aee9"
+      - "?Test | GMRoom | 7c0be857-5837-4a13-86f9-d5d6799e01d9 | f5b24f2a-834c-4adc-b151-07f92883a5bf"
+      - "?WhichRoute | GMRoom | 871ec07d-7a3d-4aa3-976c-d96a4fa48435 | 21819201-7037-4c1c-b371-ed3b86432fdb"
+      - "Chris Rooms | GMRoom | 30f154a2-2edc-4a50-9ab7-c0493d56cd69 | a0f84a90-a471-4bc8-abbc-ed5967718d4c": 
+          - "?Room6 | GMRoom | 5ca58949-6559-402b-a772-4b4253b3296c | 2935a745-abce-4d3c-abd8-3cd662815036"
+          - "?Room7 | GMRoom | fb37ce9d-9226-4c96-8ffb-7cd8a5987604 | ccd462fd-0ba0-4dd1-a80a-79254fd1d9f6"
+          - "?Room8 | GMRoom | 1ccc45f3-3e7a-42b6-b19d-798c358d5030 | 66a84a79-08a5-4384-84dc-644adb02a5b9"
+          - "?Room9 | GMRoom | 43d398df-6395-498d-b2df-48141844f695 | 53b42d0b-a9dd-458a-b55d-eec8612e4d1d"
+          - "?Room10 | GMRoom | 5a3856ee-ad8e-4782-971d-c2f40ff2a7ad | 2130eb7c-1912-4723-a81c-b7d4c7c21a1e"
+          - "?Room31 | GMRoom | 472fd90c-7b07-4275-bf02-654985a8ee39 | e1b4d35b-aeaf-44c0-b2b7-536f75e3406f"
+          - "?Room32 | GMRoom | 1f3d8723-3683-4d94-913a-696b17a73c1a | 4b758caf-ffc7-4ef7-9515-6f54141a0548"
+          - "?Room33 | GMRoom | 1f3fa150-4231-42d1-b7a8-7eec8afedba3 | 00f5bd18-2c64-4072-8316-730a0d84bffb"
+          - "?Room34 | GMRoom | 665e81dc-d5d8-4656-a17f-e7a22100b5c2 | 313d466f-1667-4cf6-9bb2-4d0c8da547ac"
+          - "?Room35 | GMRoom | 1b11d053-bd2b-432d-aa2f-ae4c8667c6e6 | 5dc9e7c2-3736-47d7-af44-a076fc6d07c5"
+      - "Noah Rooms | GMRoom | f1606a31-df55-40f9-bc97-8101c992d15b | ae785022-2217-4353-b613-d97b2b836a05": 
+          - "?Room11 | GMRoom | 931ee24b-6d98-4008-b74e-41acb5462c7e | 5f0355f2-24ba-43da-a5c5-5f0238f0c4d6"
+          - "?Room12 | GMRoom | 578a4266-e5e5-406e-b96d-ce20979a623f | d25af2c1-0d6f-4798-816a-8b5a7110fee3"
+          - "?Room13 | GMRoom | 7d833e89-5272-4c56-90f7-c0d187e5a7c0 | 82005327-4301-4943-9e8d-4559daa92922"
+          - "?Room14 | GMRoom | f333d170-d77b-4cea-bd9e-71931c8c5af3 | 7f4d4645-1cab-419c-aeda-a7f09234f990"
+          - "?Room15 | GMRoom | 72ecbf23-61bc-4928-bc7e-669cba066b42 | ed82f9f2-7b06-4693-a4fe-9aa6d9dd3080"
+          - "?Room21 | GMRoom | 13e3e93b-7fc0-4b7c-a20b-e8a6508dbdf9 | 512aec41-f267-44ac-9ce9-2af56438d5c1"
+          - "?Room22 | GMRoom | abdd8fc6-87d6-4a72-9946-ed8b286f2968 | 4f297e34-c0c1-431e-9894-f76f2989eac1"
+          - "?Room23 | GMRoom | 262a9165-71a4-464a-8b19-df7216d7c003 | de97100e-81ee-462b-8572-fe12e0e18330"
+          - "?Room24 | GMRoom | cd72f6da-fc01-45b9-b9a5-67646b30779f | 5813ba82-b036-4dc6-9a72-6a84351f82ba"
+          - "?Room25 | GMRoom | 2408d8f1-2b5c-4784-b2c5-d59d3f11ee1d | db32b131-0d6e-4639-a086-e81ef69be0f1"
+      - "?Room19 | GMRoom | 05d246c2-05d3-4cf2-be11-8a2d7df3e422 | 1f904d2f-ac78-4b3c-8099-39bc798b83f4"
+      - "?Room20 | GMRoom | 1d8ab85e-f090-4e55-9df9-d31f10f6a32b | d1f09ce5-8ca0-4e77-9546-ef4fb324ffc2"
+      - "?room32Boyd | GMRoom | 3b84b3f5-5ae8-49b3-9814-64f3eeae5ba8 | 23886305-3834-472e-848c-7f900fe343c1"
+      - "?Room17 | GMRoom | 3fd5be43-2fd0-4dc9-b746-61da32a63a69 | 667fa928-0104-4863-a572-4509ba789854"
+      - "?Room16 | GMRoom | a644a8e9-3659-4855-b60e-5b614ffd0547 | 7c2253a1-a40b-4361-a81e-ce6332bc9f1e"
+      - "?room33Boyd | GMRoom | b1feef8a-84c5-45b8-aa1d-cf86461d87d1 | b3167afc-9b01-4675-8517-7593ebc39de8"
+      - "?room30Boyd | GMRoom | bb87fe76-bd0e-4517-a73e-102938eb9fde | fcd172d2-28ca-45fa-bd25-6a579a1b6732"
+      - "?room34Boyd | GMRoom | c92c4da5-fb78-43d2-a249-acedcab6f9b9 | d45737e5-2bea-427a-9c15-a71537ff55d2"
+      - "?room31Boyd | GMRoom | d012ed37-850b-4097-ab81-da92272fca33 | 3edfc9db-5af9-4870-81c9-190306614556"
+      - "?Room18 | GMRoom | d2560153-834d-4e13-9174-cc5df0ff0d87 | e8e88068-8e86-459c-b05a-0387bdae9bee"
+  - "notes | GMNotes | 4760dd3b-52a0-4201-8265-e1c6855e3ece | 84d396d8-0723-4ed5-8bd8-086a8b9600e7": []
+  - "datafiles | GMIncludedFile | 92d966cb-58cc-4bee-be84-a8988ee0a490 | f22e9667-3651-4bd9-9b85-770c89fa5003": []
+  - "extensions | GMExtension | dc8ed0f7-f0ed-47a9-828e-87468558fee3 | af5fe33e-bd8f-4649-838c-dc686a309378": []
+  - "options | GMOptions | 377fad93-2309-4c1e-90d5-8d75d492887c | d69d54cf-fd64-451e-a502-7767464fd24e": 
+      - "options\\windows\\options_windows.yy | GMWindowsOptions | cc98d028-7bdd-4680-85f3-c87a7baa481e | 872c6cb5-2e23-45d8-af31-a21af67aab18"
+      - "options\\linux\\options_linux.yy | GMLinuxOptions | a9188620-a624-4a5a-83ae-a1b53faf038b | 5a11c3ca-c5ca-4ca9-87ef-39f3f971ed65"
+      - "options\\mac\\options_mac.yy | GMMacOptions | f418569b-3bdd-4706-a0e4-364317f54032 | 5f22534e-884c-494d-8d20-c0ca947dc658"
+  - "configs | GMConfig | bacecdf1-eea0-4428-8d1f-776bbcd818aa | c8a72489-bf6d-4f65-98ed-432101f24010": []
+projectExtras: 
+  IsDnDProject: true
+  configs: []
+  id: "a71aeeda-d236-49b2-ade4-57db253467a6"
+  modelName: GMProject
+  mvc: "1.0"
+  option_ecma: false
+  parentProject: 
+    alteredResources: 
+      - Key: "ed6a955d-5826-4f98-a450-10b414266c27"
+        Value: 
+          configDeltas: 
+            - inherited
+          id: "11669300-bcf5-445d-b658-56d54d709e92"
+          resourcePath: "options\\main\\options_main.yy"
+          resourceType: GMMainOptions
+    hiddenResources: []
+    id: "94a5b1c0-7d3f-4fbc-9cf5-8e4413314fe6"
+    modelName: GMProjectParent
+    mvc: "1.0"
+    projectPath: "${base_project}"
+  tutorial: ""
+viewExtras: 
+  "213599d5-b546-4c08-9625-9658756b1da8": 
+    localisedFolderName: ResourceTree_Tilesets
+  "377fad93-2309-4c1e-90d5-8d75d492887c": 
+    localisedFolderName: ResourceTree_Options
+  "4760dd3b-52a0-4201-8265-e1c6855e3ece": 
+    localisedFolderName: ResourceTree_Notes
+  "5dc337a9-c04e-499a-b25a-c287d70baec0": 
+    localisedFolderName: ResourceTree_Objects
+  "6f6c8eed-bae3-4794-b5a5-3d8c5c7a9fbc": 
+    localisedFolderName: ResourceTree_Shaders
+  "8158ed2b-ba13-482c-b18c-2a99b2a6c0f9": 
+    localisedFolderName: ResourceTree_Paths
+  "820c8020-f6b3-41db-8555-fb00f0ddf8c1": 
+    localisedFolderName: ResourceTree_Sounds
+  "92d966cb-58cc-4bee-be84-a8988ee0a490": 
+    localisedFolderName: ResourceTree_IncludedFiles
+  "983b5a52-c969-4d12-84d4-0084148f00b3": 
+    localisedFolderName: ResourceTree_Fonts
+  "b76df469-9e4b-4952-a244-5378a41cc44f": 
+    localisedFolderName: ResourceTree_Sprites
+  "bacecdf1-eea0-4428-8d1f-776bbcd818aa": 
+    localisedFolderName: ResourceTree_Configs
+  "c935161d-793a-41a3-9195-afedb1d8c1fe": 
+    localisedFolderName: ResourceTree_Scripts
+  "d1fdacf6-eeb9-4836-a50b-9e7abdf31c44": 
+    localisedFolderName: ResourceTree_Timelines
+  "dc8ed0f7-f0ed-47a9-828e-87468558fee3": 
+    localisedFolderName: ResourceTree_Extensions
+  "e1d3e805-5f99-4fd3-b636-8e7e7631d9ee": 
+    localisedFolderName: ResourceTree_Rooms
+viewRoot: 
+  id: "658270e7-9419-4580-8450-3923bb65b85d"
+  mvc: "1.1"
+  resourceID: "665dbbce-0860-4dce-8fb4-b52b56c091d5"
