@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerCamera
+  - WorldBounds
+  - Enemy
+  - EnemyWeapon
+  - SkeloDevilWeapon
+  - HUD
+  - PlayerWeapon
+  - EnvironmentalObject
+  - Merchant
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - WorldBounds
+  - Enemy
+  - EnemyWeapon
+  - SkeloDevilWeapon
+  - 
+  - ItemPickups
+  - PlayerAttacks
+  - Walls
+  - EnvironmentalObjects
+  - Spear
+  - BruteShield
+  - PlayerShield
+  - MiniMap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Floors
+    uniqueID: 4152668935
+    locked: 0
+  - name: Shadows
+    uniqueID: 1405641551
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1899293799
+    locked: 0
+  - name: Weapons
+    uniqueID: 3754965459
+    locked: 0

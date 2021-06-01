@@ -1,0 +1,529 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7512917546254426657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6916331822653302904}
+  - component: {fileID: 4374447203322807348}
+  m_Layer: 0
+  m_Name: Constants
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6916331822653302904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7512917546254426657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4374447203322807348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7512917546254426657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9b28615b5583c438dd7b7189a154fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player:
+    CameraSize: 10
+    MoveSpeed: 5
+    SpinMultiplier: 0.2
+    AccelerationRate: 10
+    DecelerationRate: 7
+    MinSpeedThreshold: 0.2
+    MaxSpinSpeed: 3
+    MaxCarryWeight: 50
+    DeathDelay: 1
+    WallHitDelay: 1
+    OffsetValue: 3
+    MaxFerocity: 3
+    MaxArmorMultiplier: 1
+    MaxWeaponMultiplier: 2
+    GreedPerArmor: 0.1
+    GreedPerWeapon: 0.1
+    RangeIndicatorOpaicty: 0.3
+  Enemy:
+    redFlashOpacity: 0.5
+    redFlashTime: 0.2
+    MaxHealth: 1
+    FlameResistance: 0
+    FreezeThreshold: 2
+    PassiveMoveSpeed: 1
+    AggressiveMoveSpeed: 2
+    AggroRange: 5
+    FleeRange: 2.5
+    AttackDelay: 5
+    AttackRange: 10
+    ScaleMultiplier: 2
+    HealthMultiplier: 2
+  AlgorMortis:
+    redFlashOpacity: 1
+    redFlashTime: 1
+    MaxHealth: 3
+    FlameResistance: 0
+    FreezeThreshold: 0
+    PassiveMoveSpeed: 1.4
+    AggressiveMoveSpeed: 14
+    AggroRange: 0
+    FleeRange: 0
+    AttackDelay: 0.2
+    AttackRange: 0
+    ScaleMultiplier: 1
+    HealthMultiplier: 2
+    PassiveRange: 25
+    AttackTime: 0.45
+    MoveWait: 0.08
+    MoveTime: 2
+    RamDelay: 0
+    ExplosionRadius: 3
+    ExplosionTime: 0.75
+    FreezeTime: 4
+  Cherub:
+    redFlashOpacity: 1
+    redFlashTime: 1
+    MaxHealth: 1
+    FlameResistance: 1
+    FreezeThreshold: 1
+    PassiveMoveSpeed: 2.8
+    AggressiveMoveSpeed: 4.7
+    AggroRange: 8
+    FleeRange: 0
+    AttackDelay: 5
+    AttackRange: 0
+    ScaleMultiplier: 2
+    HealthMultiplier: 2
+    PassiveRange: 20
+    Charge1Time: 0.8
+    Charge2Time: 1
+    Charge3Time: 0.4
+    MoveDelay: 1.5
+    MoveTime: 1.5
+    FireballSpeed: 8.5
+    FireballDelay: 0.08
+    FireballDestroyTime: 5
+    PlayerDistance: 5.2
+    RotationSpeed: 0.17
+  Bandit:
+    redFlashOpacity: 1
+    redFlashTime: 1
+    MaxHealth: 2
+    FlameResistance: 0
+    FreezeThreshold: 2
+    PassiveMoveSpeed: 2
+    AggressiveMoveSpeed: 0
+    AggroRange: 8
+    FleeRange: 5
+    AttackDelay: 2
+    AttackRange: 0
+    ScaleMultiplier: 2
+    HealthMultiplier: 2
+    ItemDistance: 10
+  Skelodevil:
+    redFlashOpacity: 1
+    redFlashTime: 1
+    MaxHealth: 6
+    FlameResistance: 0.5
+    FreezeThreshold: 2
+    PassiveMoveSpeed: 0
+    AggressiveMoveSpeed: 0
+    AggroRange: 5
+    FleeRange: 3
+    AttackDelay: 0.5
+    AttackRange: 0
+    ScaleMultiplier: 4
+    HealthMultiplier: 2
+    FleeSpeed: 3.5
+    ChaseRange: 7
+    ChaseSpeed: 3.5
+    ImmuneDelay: 5
+  Hermit:
+    redFlashOpacity: 1
+    redFlashTime: 1
+    MaxHealth: 2
+    FlameResistance: 0
+    FreezeThreshold: 2
+    PassiveMoveSpeed: 8
+    AggressiveMoveSpeed: 0
+    AggroRange: 0
+    FleeRange: 0
+    AttackDelay: 0
+    AttackRange: 0
+    ScaleMultiplier: 2
+    HealthMultiplier: 2
+    CrawlDelay: 4
+    CrawlTime: 1
+    CrawlAudioDelay: 0.6
+    IdleAudioDelay: 4
+  CorpseEater:
+    redFlashOpacity: 1
+    redFlashTime: 1
+    MaxHealth: 4
+    FlameResistance: 0
+    FreezeThreshold: 2
+    PassiveMoveSpeed: 0
+    AggressiveMoveSpeed: 5
+    AggroRange: 6
+    FleeRange: 0
+    AttackDelay: 1
+    AttackRange: 1.3
+    ScaleMultiplier: 2
+    HealthMultiplier: 2
+    ChaseRange: 12
+    RiseTime: 1
+  Shadowblade:
+    redFlashOpacity: 1
+    redFlashTime: 1
+    MaxHealth: 2
+    FlameResistance: 0
+    FreezeThreshold: 2
+    PassiveMoveSpeed: 1
+    AggressiveMoveSpeed: 1
+    AggroRange: 12
+    FleeRange: 0
+    AttackDelay: 0.8
+    AttackRange: 1.1
+    ScaleMultiplier: 2
+    HealthMultiplier: 2
+  Brute:
+    redFlashOpacity: 1
+    redFlashTime: 1
+    MaxHealth: 2
+    FlameResistance: 0
+    FreezeThreshold: 2
+    PassiveMoveSpeed: 2
+    AggressiveMoveSpeed: 0
+    AggroRange: 7
+    FleeRange: 0
+    AttackDelay: 3
+    AttackRange: 1.3
+    ScaleMultiplier: 2
+    HealthMultiplier: 2
+    WalkTime: 2
+    ShieldHealth: 5
+  IronMaidenTrap:
+    CloseTime: 0.1
+    OpenTime: 2.4
+    CloseForce: 20
+    OpenForce: 35
+    AttackRange: 2
+  DemonKing:
+    redFlashOpacity: 1
+    redFlashTime: 1
+    MaxHealth: 8
+    FlameResistance: 5
+    FreezeThreshold: 10
+    PassiveMoveSpeed: 0
+    AggressiveMoveSpeed: 0
+    AggroRange: 12
+    FleeRange: 0
+    AttackDelay: 0
+    AttackRange: 0
+    ScaleMultiplier: 0
+    HealthMultiplier: 0
+    MinSpeed: 3
+    MaxSpeed: 10
+    DirectionChangeChance: 20
+    MultishotProbability: 1
+    RapidshotProbability: 1
+    GeokinesisProbability: 1
+    MultishotFireballs: 3
+    MultishotAngle: 20
+    MultishotAnimationSpeed: 1.5
+    MultishotCount: 5
+    MultishotCooldown: 3.9
+    BurnDuration: 1
+    FreezeDuration: 1
+    RapidshotFireballs: 60
+    RapidshotChargeTime: 2.8
+    RapidshotCount: 6
+    RapidshotDelay: 0.07
+    RapidshotFireballDelay: 0.01
+    RapidshotCooldown: 4.2
+    RapidshotVulnerableTime: 2.6
+    RapidshotStartAngle: 40
+    RapidshotEndAngle: -100
+    RapidShotFireballSpeed: 6.5
+    RapidshotGap: 4
+    RapidshotMinGaps: 3
+    RapidshotMaxGaps: 4
+    RapidshotAimOffset: 0.075
+    GeokinesisTime: 1.35
+    GeokinesisDelay: 1.1
+    GeokinesisCreationDelay: 0.3
+    GeokinesisCooldown: 4.2
+    GeokinesisSpeed: 8.2
+    GeokinesisSmallSpeed: 5.4
+    GeokinesisSplitCount: 4
+  Item:
+    minPickupDistance: 2
+    Rarity: 0
+    minStackDistance: 12
+    maxStackDistance: 60
+    stackDistanceAmount: 3
+  ThrowableItem:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 1
+  WeaponVariant:
+    FlameGlow: {r: 0.8980392, g: 0.43109164, b: 0.10588237, a: 1}
+    FrostGlow: {r: 0, g: 0.990566, b: 0.96669686, a: 1}
+    TemperedGlow: {r: 1, g: 0, b: 1, a: 1}
+    TemperedFlameGlow: {r: 1, g: 0.10624498, b: 0.0039215684, a: 1}
+    TemperedFrostGlow: {r: 0, g: 0.47634888, b: 1, a: 1}
+    LegendaryGlow: {r: 1, g: 0.8955235, b: 0.3339622, a: 1}
+    TemperedMultiplier: 2
+    BurnDuration: 2
+    BurnDelay: 0.5
+    FreezeDuration: 3
+  Weapon:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 1
+    FlamePower: 0.25
+    FrostPower: 1
+  Dagger:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 7.5
+    TravelTime: 1
+    Weight: 1
+    Damage: 1
+    FlamePower: 0.25
+    FrostPower: 1
+    SpinTorque: 3
+  Hoarfrost:
+    minPickupDistance: 0
+    Rarity: 3
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 1
+    TravelTime: 1
+    Weight: 1
+    Damage: 1
+    FlamePower: 0.25
+    FrostPower: 1
+    SpinTorque: 1
+    TravelTimeMultiplier: 0.6
+    SpinTorqueMultiplier: 15
+  Warhammer:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 8
+    TravelTime: 0.5
+    Weight: 5
+    Damage: 2
+    FlamePower: 0.25
+    FrostPower: 1
+    Range: 5.5
+  Spear:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 15
+    TravelTime: 1.5
+    Weight: 1
+    Damage: 1
+    FlamePower: 0.25
+    FrostPower: 1
+    VelocityMultiplier: 0.9925
+    VelocityMultiplierHit: 0.6
+    Range: 13
+  BigCrate:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 0
+    MaxHealth: 2
+    DecorationAreaOfEffect: 2.6
+  SmallCrate:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 0
+    MaxHealth: 1
+    DecorationAreaOfEffect: 1.2
+  Barrel:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 0
+    MaxHealth: 1
+    DecorationAreaOfEffect: 0.9
+  CandleHolder:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 0
+    MaxHealth: 2
+    DecorationAreaOfEffect: 1.4
+  Table:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 0
+    MaxHealth: 3
+    DecorationAreaOfEffect: 2.4
+  IronMaiden:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 0
+    MaxHealth: 6
+    DecorationAreaOfEffect: 3.1
+  Plate:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 0
+    MaxHealth: 1
+    DecorationAreaOfEffect: 0.5
+  Fork:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 0
+    MaxHealth: 1
+    DecorationAreaOfEffect: 0.3
+  Knife:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 0
+    MaxHealth: 1
+    DecorationAreaOfEffect: 0.3
+  Chair:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    ThrowSpeed: 5
+    TravelTime: 0.5
+    Weight: 1
+    Damage: 0
+    MaxHealth: 1
+    DecorationAreaOfEffect: 0.8
+  Armor:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    Health: 1
+  LightArmor:
+    minPickupDistance: 0
+    Rarity: 0
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    Health: 1
+  ChainMail:
+    minPickupDistance: 0
+    Rarity: 1
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    Health: 2
+  PlateArmor:
+    minPickupDistance: 0
+    Rarity: 2
+    minStackDistance: 0
+    maxStackDistance: 0
+    stackDistanceAmount: 0
+    Health: 4
+  Map:
+    ModuleXOffset: 29
+    ModuleYOffset: 23
+    Angle: -60
+    Offset: 0.2
+  Loot:
+    StartChance: 0.5
+    ChanceMultiplier: 0.5
+    UncommonThreshold: 0
+    RareThreshold: 4
+    LegendaryThreshold: 8
